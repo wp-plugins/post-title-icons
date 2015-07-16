@@ -1,6 +1,6 @@
 === Plugin Name ===
-Contributors: (Orange Tree Farm)
-Donate link: http://example.com/
+Contributors: Orange Tree Farm
+Donate link: http://orangetree.farm/
 Tags: posts, titles, icons
 Requires at least: 3.0.1
 Tested up to: 3.4
@@ -8,7 +8,7 @@ Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Post Title Icons lets you set icons for all your blog posts. Either for all of for a specific category.
+Post Title Icons lets you set icons for all your blog posts. Either for all or for a specific category.
 
 == Description ==
 
@@ -20,8 +20,14 @@ This section describes how to install the plugin and get it working.
 
 e.g.
 
-1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
+1. There are two ways up to upload the plugin. 
+
+-Through the wordpress dashboard: Go to Plugins > Upload new plugin > Browse for the zip file that you download here. 
+
+-Through FTP: Unzip the zip file that you downloaded and upload the folder to your Theme > Plugins folder. 
+
 2. Activate the plugin through the 'Plugins' menu in WordPress
+
 3. A new tab is added to the settings menu. Here you will find a newly added post title icons submenu where you can set your settings.
 
 
