@@ -43,8 +43,9 @@ Answer to foo bar dilemma.
 
 == Screenshots ==
 
-1. /assets/screenshot-1.png 
-2. This is the second screen shot
+1. How the Icons will look on your blog
+2. Settings Page for a single icon
+3. Settings Page for category icons
 
 == Changelog ==
 
