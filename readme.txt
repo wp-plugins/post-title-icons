@@ -18,7 +18,6 @@ Need Support?
 Do you need some help or do you have some ideas on some additional functionality? Please don’t hesitate to get in contact. 
 
 Features include:
-
 * Include a custom icon before the blog title.
 * Include a custom icon before the blog title based on the category of the blog post.
 * You create custom icons for up to 5 different categories.
