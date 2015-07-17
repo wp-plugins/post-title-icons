@@ -54,7 +54,7 @@ Absolutely nothing!
 
 == Changelog ==
 
-v1.0 This is the orginal version. More features will be added soon.
+v1.0 This is the original version. More features will be added soon.
 
 
 
