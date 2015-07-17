@@ -15,9 +15,11 @@ Post Title Icons lets you set icons for all your blog posts. Either for all or f
 Post Title Icons turns your blog titles into something special. You simply insert the url of a custom icon, either hosted on your own blog or anywhere on the web and it will automatically be inserted inside of blog titles. You can also select different icons for different blog categories and make all your categories stand out. PTI is a simple and clean plugin that does not affect your blog performance.
 
 Need Support?
+
 Do you need some help or do you have some ideas on some additional functionality? Please don’t hesitate to get in contact. 
 
 Features include:
+
 * Set a custom icon before the blog title.
 * Set a custom icon before the blog title based on the category of the blog post.
 * Create custom icons for up to 5 different categories.
