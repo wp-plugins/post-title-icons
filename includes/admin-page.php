@@ -35,9 +35,28 @@ function toggle() {
 			<h4><?php _e('Icon url', 'ggs_domain'); ?></h4>
 			<p>
 				<input id="ggs_settings[icon_url]" name="ggs_settings[icon_url]" type="text" value="<?php echo $ggs_options['icon_url']; ?>"/>
-				<label class="description" for="ggs_settings[icon_url]"><?php _e('Enter the url of your icon (keep size under 35x35 px)', 'ggs_domain'); ?></label>
+				<label class="description" for="ggs_settings[icon_url]"><?php _e('Paste the url of your icon (keep size under 35x35 px)', 'ggs_domain'); ?></label>
 			</p>
 			
+				
+			<h4><?php _e('Location', 'ggs_domain'); ?></h4>
+			<label class="description" for="ggs_settings[location]"><?php _e('Where do you want your icon to show?', 'ggs_domain'); ?></label>
+			<p>
+				<?php $location = array('page', 'post', 'BOTH'); ?>
+				<select name="ggs_settings[location]" id="ggs_settings[location]">
+					<?php foreach($location as $style) { ?>
+						<?php if($ggs_options['location'] == $style) { $selected = 'selected="selected"'; } else { $selected = ''; } ?>
+						<option value="<?php echo $style; ?>" <?php echo $selected; ?>><?php echo $style; ?></option>
+					<?php } ?>
+				</select>
+			</p>
+			<p>
+			<?php echo $style; ?>
+			</p>
+			<p>
+			<?php echo $ggs_options['location']; ?>
+			</p>
+						
 			<a id="displayText" href="javascript:toggle();">Select multiple icons for specific categories ↓</a>
 			<div id="toggleText" style="display: none">
 

@@ -1,16 +1,43 @@
 <?php
 
  	
- 		//insert custom icon url for all posts
+ 		//insert custom icon url for BOTH posts & pages
  				
-	function ggs_icon_url($title){
+	if ($ggs_options['location'] == "BOTH"){
+	function ggs_icon_url_BOTH($title){
 		global $ggs_options;
 	 	$title = ' <img src=" ' . $ggs_options['icon_url'] . ' "> ' . $title ;
 	 	return $title; 	
+	 	
 	 	}
- 	
- 	add_filter('the_title', 'ggs_icon_url');
- 	
+ 	add_filter('the_title', 'ggs_icon_url_BOTH');
+ 		}
+ 		
+ 		
+ 		//insert custom icon url for pages ONLY
+ 		
+ 		if ($ggs_options['location'] == "page"){
+	function ggs_icon_url_page($title){
+		global $ggs_options;
+	 	if (is_page()){$title = ' <img src=" ' . $ggs_options['icon_url'] . ' "> ' . $title ;}
+	 	return $title; 	
+	 	
+	 	}
+ 	add_filter('the_title', 'ggs_icon_url_page');
+ 		}	
+ 		
+ 		
+ 		//insert custom icon url for posts ONLY
+ 		
+ 		if ($ggs_options['location'] == "post"){
+	function ggs_icon_url_post($title){
+		global $ggs_options;
+	 	if (!is_page()){$title = ' <img src=" ' . $ggs_options['icon_url'] . ' "> ' . $title ;}
+	 	return $title; 	
+	 	
+	 	}
+ 	add_filter('the_title', 'ggs_icon_url_post');
+ 		}	
  		
  		
  		//insert custom icon url for category specific posts url_1 & icon_1		
