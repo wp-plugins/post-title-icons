@@ -5,7 +5,7 @@ Plugin URI: http://orangetree.farm/post-title-icons/
 Description: This plugin will add an icon to your post titles
 Author: Orange Tree
 Author URI: http://orangetree.farm
-Version: 1.1
+Version: 1.2
 */
 
 
